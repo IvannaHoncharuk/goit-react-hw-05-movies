@@ -6,7 +6,7 @@ export const SharedLayout = () => {
   return (
     <Container>
       <Header>
-        <Link to="/">Home</Link>
+        <Link to="/" end>Home</Link>
         <Link to="/movies">Movies</Link>
       </Header>
       <Suspense fallback={<div>Loading page...</div>}>
